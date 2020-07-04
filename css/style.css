@@ -1,0 +1,383 @@
+body,
+a,
+p,
+h1,
+h2,
+h3,
+ul {
+  font-family: Open Sans, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+} */
+
+/* Header */
+.header {
+  height: 100vh;
+  position: relative;
+  background-color: #000000;
+  background-image: url(../img/football_767.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background-color: #0a0e34;
+}
+.header-container {
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+}
+.logo {
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 130px;
+  padding-top: 30px;
+}
+.logo-title {
+  fill: #fff;
+}
+.header-title {
+  text-transform: uppercase;
+  color: #fff;
+}
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-title-p2 {
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 85px;
+}
+.store-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.store-button {
+  margin-bottom: 15px;
+  padding-left: 80px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  display: flex;
+  background-color: #5e42b0;
+  border-radius: calc(35px / 2);
+}
+.store-button-ios {
+  width: 20px;
+  fill: #fff;
+  display: block;
+  margin-right: 8px;
+}
+.store-button-google {
+  width: 22px;
+  fill: #fff;
+  display: block;
+  margin-right: 8px;
+}
+.store-buttons__text {
+  width: 83px;
+  color: #fff;
+  font-size: 8px;
+  display: block;
+}
+.store-buttons__text span {
+  font-weight: 700;
+  display: block;
+}
+
+/* Main content */
+
+/* Section Athlets */
+.athlets-header-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 240px;
+  position: relative;
+}
+.athlets-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #e7e7e7;
+  text-transform: uppercase;
+}
+.athlets-img {
+  position: absolute;
+  top: 75px;
+  left: 50px;
+}
+.athlets-post {
+  padding: 60px 20px 50px;
+}
+.athlets-post:nth-child(1) {
+  padding-top: 80px;
+  background-color: #fafafa;
+}
+.athlets-post:nth-child(2) {
+  background-color: #f5f4f9;
+}
+.athlets-post:nth-child(3) {
+  background-color: #5e42b0;
+}
+.post-title-container {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+.number-post {
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 7px;
+  display: block;
+}
+.number-post::after {
+  content: "";
+  width: 17px;
+  height: 3px;
+  background-color: #5e42b0;
+  border-radius: 2px;
+  display: block;
+}
+.number-post-03::after {
+  background-color: #fff;
+}
+.post-title {
+  font-size: 23px;
+  font-weight: 700;
+  color: #c1c1c1;
+  text-transform: uppercase;
+}
+.post-text {
+  font-size: 15px;
+}
+.post-text-03 {
+  color: #fff;
+}
+
+/* Section Players */
+.players-header-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 230px;
+  position: relative;
+}
+.players-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #e7e7e7;
+  text-transform: uppercase;
+}
+.players-img {
+  position: absolute;
+  top: 75px;
+  left: -10px;
+}
+.players-post {
+  padding: 60px 20px 50px;
+}
+.players-post:nth-child(1) {
+  padding-top: 80px;
+  background-color: #fafafa;
+}
+.players-post:nth-child(2) {
+  background-color: #f5f4f9;
+}
+.players-post:nth-child(3) {
+  background-color: #090c35;
+}
+.players-post .post-title-container .number-post-03 {
+  color: #5e42b0;
+}
+
+/* Section Be active */
+.be-active-img-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+.be-active-img {
+  width: 100%;
+}
+.number-in-rectangle {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  background-color: #5e42b0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+}
+.number-in-rectangle-text {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.number-in-rectangle-text::after {
+  content: "";
+  width: 15px;
+  height: 3px;
+  background-color: #8f7bc8;
+  border-radius: 2px;
+  display: block;
+}
+.be-active-post-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.be-active-post-title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+.be-active-post-text {
+  font-size: 16px;
+  margin-bottom: 75px;
+}
+
+/* Section Find contact */
+.find-contact-img-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+.find-contact-img {
+  width: 100%;
+}
+.find-contact-post-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.find-contact-post-title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+.find-contact-post-text {
+  font-size: 16px;
+  margin-bottom: 75px;
+}
+
+/* Section Work it */
+.work-it-img-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+.work-it-img {
+  width: 100%;
+}
+.work-it-post-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.work-it-post-title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+.work-it-post-text {
+  font-size: 16px;
+  margin-bottom: 75px;
+}
+
+/* Footer */
+.footer {
+  height: 100vh;
+  position: relative;
+  background-color: #000000;
+  background-image: url(../img/game_767.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background-color: #0a0e34;
+}
+.footer-container {
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  position: relative;
+  z-index: 2;
+}
+.logo-btn {
+  width: 72px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#7756d7, #50379b);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-btn-svg {
+  width: 60px;
+  height: 50px;
+  fill: #fff;
+  stroke-width: 5;
+  stroke: #4c28b1;
+}
+.footer-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.footer-title-1 {
+  margin-bottom: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-title-2 {
+  font-size: 14px;
+  color: #9b8ec1;
+}
+.footer-container .logo {
+  margin: 95px auto 0;
+}
