@@ -578,7 +578,7 @@ li {
     margin-bottom: 95px;
   }
 
-  /* Footer (tablet) */  
+  /* Footer (tablet) */
   .footer-container {
     width: 703px;
     padding-top: 125px;
@@ -608,290 +608,282 @@ li {
   }
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
-  /* Header (desktop) */
-.header {
-  background-image: url(../img/football_1920.jpg);
-}
-.header-container {
-  width: 1530px;
-  padding-top: 45px;
-  padding-bottom: 110px;
-}
-.logo {
-  width: 190px;
-  margin-bottom: 170px;
-}
-.header-title {
-  margin-bottom: 200px;
-}
-.title {
-  font-size: 90px;
-}
-.header-title-p2 {
-  margin-left: 450px;
-  margin-top: 0;
-}
-.store-buttons {
-  flex-direction: row;
-  justify-content: space-between;
-  width: 670px;
-}
-.store-btn-container {
-  width: 310px;
-  border-radius: 40px;
-}
-.store-btn-container:first-child {
-  margin-bottom: 0;
-}
-.store-button {
-  padding-left: 45px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.store-button-ios {
-  width: 36px;
-  margin-right: 27px;
-}
-.store-button-google {
-  width: 41px;
-  margin-right: 28px;
-}
-.store-button__text {
-  width: 145px;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-/* Main content (desktop) */
-
-/* Section Athlets (desktop) */
-.athlets-title-container {
-  margin-bottom: 0;
-  padding-left: 1008px;
-  padding-top: 92px;
-}
-.athlets-title {
-  font-size: 80px;
-}
-.athlets-img {
-  top: 40px;
-  left: 395px;
-  transform: initial;
-}
-.athlets-post {
-  width: 715px;
-  padding-left: 1008px;
-  padding-right: 196px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.athlets-post:nth-child(1) {
-  padding-top: 80px;
-  background-color: #fff;
-}
-.number-post {
-  font-size: 18px;
-  margin-right: 7px;
-}
-.number-post::after {
-  width: 19px;
-  height: 5px;
-  margin-top: 2px;
-}
-.post-title {
-  font-size: 36px;
-}
-.post-text {
-  font-size: 20px;
-}
-
-/* Section Players (desktop) */
-.players-title-container {
-  margin-bottom: 0;
-  padding-right: 0;
-  padding-left: 192px;
-  padding-top: 92px;
-}
-.players-title {
-  font-size: 80px;
-}
-.players-img {
-  top: 30px;
-  right: 0;
-  left: 810px;
-  transform: initial;
-}
-.players-post {
-  width: 755px;
-  padding: 50px 974px 50px 192px;
-}
-.players-post:nth-child(1) {
-  padding-top: 80px;
-  background-color: #fff;
-}
-
-/* Section Be active (desktop) */
-.be-active {
-  display: flex;
-}
-.be-active-img-container {
-  width: 50%;
-  margin-bottom: 0;
-}
-.be-active-img {
-  width: 100%;
-  height: 100%;
-}
-.number-in-rectangle {
-  width: 150px;
-  height: 140px;
-  bottom: 50%;
-  left: initial;
-  right: -75px;
-}
-.number-in-rectangle-text {
-  font-size: 24px;
-}
-.number-in-rectangle-text::after {
-  width: 25px;
-  height: 5px;
-  border-radius: 3px;
-}
-.be-active-post-container {
-  width: 50%;
-  padding-left: 130px;
-  padding-right: 197px;
-  padding-top: 200px;
-  box-sizing: border-box;
-}
-.be-active-post-title {
-  margin-bottom: 85px;
-  font-size: 80px;
-}
-.be-active-post-text {
-  margin-bottom: 0;
-  font-size: 24px;
-  padding-bottom: 20px;
-}
-
-/* Section Find contact (desktop) */
-.find-contact {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.find-contact-img-container {
-  width: 50%;
-  margin-bottom: 0;
-}
-.find-contact-img {
-  width: 100%;
-  height: 100%;
-}
-.number-in-rectangle-revers {
-  left: -84px;
-  right: initial;
-}
-.find-contact-post-container {
-  width: 50%;
-  padding-left: 192px;
-  padding-right: 120px;
-  padding-top: 230px;
-  box-sizing: border-box;
-}
-.find-contact-post-title {
-  margin-bottom: 50px;
-  font-size: 80px;
-}
-.find-contact-post-text {
-  margin-bottom: 0;
-  font-size: 24px;
-  padding-bottom: 20px;
-}
-
-/* Section Work it (desktop) */
-.work-it {
-  display: flex;
-}
-.work-it-img-container {
-  width: 50%;
-  margin-bottom: 0;
-}
-.work-it-img {
-  width: 100%;
-  height: 100%;
-}
-.work-it-post-container {
-  width: 50%;
-  padding-left: 130px;
-  padding-right: 197px;
-  padding-top: 230px;
-  box-sizing: border-box;
-}
-.work-it-post-title {
-  margin-bottom: 85px;
-  font-size: 80px;
-}
-.work-it-post-text {
-  margin-bottom: 0;
-  font-size: 24px;
-  padding-bottom: 20px;
-}
-
-/* Footer (desktop) */
-.footer {
-  background-image: url(../img/game_1920.jpg);
-}
-.footer-container {
-  width: 1530px;
-  padding-top: 230px;
-  padding-bottom: 50px;
-}
-.desktop-footer-container {
-  display: flex;
-  width: 870px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 150px;
-  align-items: center;
-}
-.logo-btn {
-  width: 130px;
-  height: 136px;
-  margin-left: 0;
-  margin-right: 36px;
-  margin-bottom: 0;
-  border-radius: 30px;
-}
-.logo-btn-svg {
-  width: 105px;
-}
-.footer-title {
-  text-align: left;
-  margin-bottom: 0;
-}
-.footer-title-1 {
-  margin-bottom: 5px;
-  font-size: 80px;
-  line-height: 1;
-}
-.footer-title-2 {
-  font-size: 30px;
-  color: #a496ca;
-}
-.footer-container .store-buttons {
-  margin-bottom: 260px;
-}
-.footer-container .logo {
-  margin: 0 auto;
-  padding: 0;
-}
-}
-
-@media (min-width: 1921px) {
+@media (min-width: 961px) {
   body {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
+  }
+  /* Header (desktop) */
+  .header {
+    background-image: url(../img/football_1920.jpg);
+  }
+  .header-container {
+    width: 1530px;
+    padding-top: 45px;
+    padding-bottom: 110px;
+  }
+  .logo {
+    width: 190px;
+    margin-bottom: 170px;
+  }
+  .header-title {
+    margin-bottom: 200px;
+  }
+  .title {
+    font-size: 90px;
+  }
+  .header-title-p2 {
+    margin-left: 450px;
+    margin-top: 0;
+  }
+  .store-buttons {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 670px;
+  }
+  .store-btn-container {
+    width: 310px;
+    border-radius: 40px;
+  }
+  .store-btn-container:first-child {
+    margin-bottom: 0;
+  }
+  .store-button {
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .store-button-ios {
+    width: 36px;
+    margin-right: 27px;
+  }
+  .store-button-google {
+    width: 41px;
+    margin-right: 28px;
+  }
+  .store-button__text {
+    width: 145px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  /* Main content (desktop) */
+
+  /* Section Athlets (desktop) */
+  .athlets-title-container {
+    margin-bottom: 0;
+    padding-left: 1008px;
+    padding-top: 92px;
+  }
+  .athlets-title {
+    font-size: 80px;
+  }
+  .athlets-img {
+    top: 40px;
+    left: 395px;
+    transform: initial;
+  }
+  .athlets-post {
+    padding: 50px 196px 50px 1008px;
+  }
+  .athlets-post:nth-child(1) {
+    padding-top: 80px;
+    background-color: #fff;
+  }
+  .number-post {
+    font-size: 18px;
+    margin-right: 7px;
+  }
+  .number-post::after {
+    width: 19px;
+    height: 5px;
+    margin-top: 2px;
+  }
+  .post-title {
+    font-size: 36px;
+  }
+  .post-text {
+    font-size: 20px;
+  }
+
+  /* Section Players (desktop) */
+  .players-title-container {
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 192px;
+    padding-top: 92px;
+  }
+  .players-title {
+    font-size: 80px;
+  }
+  .players-img {
+    top: 30px;
+    right: 0;
+    left: 810px;
+    transform: initial;
+  }
+  .players-post {
+    padding: 50px 974px 50px 192px;
+  }
+  .players-post:nth-child(1) {
+    padding-top: 80px;
+    background-color: #fff;
+  }
+
+  /* Section Be active (desktop) */
+  .be-active {
+    display: flex;
+  }
+  .be-active-img-container {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .be-active-img {
+    width: 100%;
+    height: 100%;
+  }
+  .number-in-rectangle {
+    width: 150px;
+    height: 140px;
+    bottom: 50%;
+    left: initial;
+    right: -75px;
+  }
+  .number-in-rectangle-text {
+    font-size: 24px;
+  }
+  .number-in-rectangle-text::after {
+    width: 25px;
+    height: 5px;
+    border-radius: 3px;
+  }
+  .be-active-post-container {
+    width: 50%;
+    padding-left: 130px;
+    padding-right: 197px;
+    padding-top: 200px;
+    box-sizing: border-box;
+  }
+  .be-active-post-title {
+    margin-bottom: 85px;
+    font-size: 80px;
+  }
+  .be-active-post-text {
+    margin-bottom: 0;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  /* Section Find contact (desktop) */
+  .find-contact {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .find-contact-img-container {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .find-contact-img {
+    width: 100%;
+    height: 100%;
+  }
+  .number-in-rectangle-revers {
+    left: -84px;
+    right: initial;
+  }
+  .find-contact-post-container {
+    width: 50%;
+    padding-left: 192px;
+    padding-right: 120px;
+    padding-top: 230px;
+    box-sizing: border-box;
+  }
+  .find-contact-post-title {
+    margin-bottom: 50px;
+    font-size: 80px;
+  }
+  .find-contact-post-text {
+    margin-bottom: 0;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  /* Section Work it (desktop) */
+  .work-it {
+    display: flex;
+  }
+  .work-it-img-container {
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .work-it-img {
+    width: 100%;
+    height: 100%;
+  }
+  .work-it-post-container {
+    width: 50%;
+    padding-left: 130px;
+    padding-right: 197px;
+    padding-top: 230px;
+    box-sizing: border-box;
+  }
+  .work-it-post-title {
+    margin-bottom: 85px;
+    font-size: 80px;
+  }
+  .work-it-post-text {
+    margin-bottom: 0;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  /* Footer (desktop) */
+  .footer {
+    background-image: url(../img/game_1920.jpg);
+  }
+  .footer-container {
+    width: 1530px;
+    padding-top: 230px;
+    padding-bottom: 50px;
+  }
+  .desktop-footer-container {
+    display: flex;
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    align-items: center;
+  }
+  .logo-btn {
+    width: 130px;
+    height: 136px;
+    margin-left: 0;
+    margin-right: 36px;
+    margin-bottom: 0;
+    border-radius: 30px;
+  }
+  .logo-btn-svg {
+    width: 105px;
+  }
+  .footer-title {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .footer-title-1 {
+    margin-bottom: 5px;
+    font-size: 80px;
+    line-height: 1;
+  }
+  .footer-title-2 {
+    font-size: 30px;
+    color: #a496ca;
+  }
+  .footer-container .store-buttons {
+    margin-bottom: 260px;
+  }
+  .footer-container .logo {
+    margin: 0 auto;
+    padding: 0;
   }
 }
